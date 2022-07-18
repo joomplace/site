@@ -1,0 +1,17 @@
+<updates>
+    <update>
+        <name>Testimonials</name>
+        <description>Testimonials managing component for Joomla! CMS</description>
+        <element>pkg_testimonials</element>
+        <type>package</type>
+        <version>1.7.9</version>
+        <infourl title="Testimonials 1.7.9 Release">https://github.com/joomplace/joomla-testimonials/releases/tag/1.7.9</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/joomplace/joomla-testimonials/releases/download/1.7.9/pkg_testimonials_1.7.9.zip</downloadurl>
+        </downloads>
+        <maintainer>JoomPlace</maintainer>
+        <maintainerurl>https://www.joomplace.com</maintainerurl>
+        <targetplatform name="joomla" version="3.*"/>
+        <php_minimum>5.3.10</php_minimum>
+    </update>
+</updates>

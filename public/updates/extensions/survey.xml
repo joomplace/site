@@ -1,0 +1,17 @@
+<updates>
+    <update>
+        <name>Survey Force Deluxe</name>
+        <description>Survey management component for Joomla! CMS</description>
+        <element>pkg_survey</element>
+        <type>package</type>
+        <version>3.2.7</version>
+        <infourl title="Survey Force Deluxe 3.2.7 Release">https://github.com/joomplace/joomla-survey/releases/tag/3.2.7</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/joomplace/joomla-survey/releases/download/3.2.7/pkg_survey_3.2.7.zip</downloadurl>
+        </downloads>
+        <maintainer>JoomPlace</maintainer>
+        <maintainerurl>https://www.joomplace.com</maintainerurl>
+        <targetplatform name="joomla" version="3.*"/>
+        <php_minimum>5.3.10</php_minimum>
+    </update>
+</updates>

@@ -1,0 +1,17 @@
+<updates>
+    <update>
+        <name>Personal Goals Manager</name>
+        <description>Personal Goals Manager component for Joomla! CMS</description>
+        <element>pkg_goals_standard</element>
+        <type>package</type>
+        <version>1.2.4</version>
+        <infourl title="Personal Goals Manager 1.2.4 Release">https://github.com/joomplace/joomla-goals/releases/tag/1.2.4</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/joomplace/joomla-goals/releases/download/1.2.4/pkg_goals_1.2.4.zip</downloadurl>
+        </downloads>
+        <maintainer>JoomPlace</maintainer>
+        <maintainerurl>https://www.joomplace.com</maintainerurl>
+        <targetplatform name="joomla" version="3.*"/>
+        <php_minimum>5.3.10</php_minimum>
+    </update>
+</updates>

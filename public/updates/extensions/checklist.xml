@@ -1,0 +1,17 @@
+<updates>
+    <update>
+        <name>Checklist</name>
+        <description>Checklist management component for Joomla! CMS</description>
+        <element>pkg_checklist_professional</element>
+        <type>package</type>
+        <version>1.1.3</version>
+        <infourl title="Checklist 1.1.3 Release">https://github.com/joomplace/joomla-checklist/releases/tag/1.1.3</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/joomplace/joomla-checklist/releases/download/1.1.3/pkg_checklist_professional_1.1.3.zip</downloadurl>
+        </downloads>
+        <maintainer>JoomPlace</maintainer>
+        <maintainerurl>https://www.joomplace.com</maintainerurl>
+        <targetplatform name="joomla" version="3.*"/>
+        <php_minimum>5.3.10</php_minimum>
+    </update>
+</updates>

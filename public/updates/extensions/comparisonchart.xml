@@ -1,0 +1,17 @@
+<updates>
+    <update>
+        <name>Comparison Chart</name>
+        <description>Comparison Chart component for Joomla! CMS</description>
+        <element>pkg_comparisonchart</element>
+        <type>package</type>
+        <version>2.2.0</version>
+        <infourl title="Comparison Chart 2.2.0 Release">https://github.com/joomplace/joomla-comparison-chart/releases/tag/2.2.0</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/joomplace/joomla-comparison-chart/releases/download/2.2.0/pkg_comparisonchart_2.2.0.zip</downloadurl>
+        </downloads>
+        <maintainer>JoomPlace</maintainer>
+        <maintainerurl>https://www.joomplace.com</maintainerurl>
+        <targetplatform name="joomla" version="3.*"/>
+        <php_minimum>5.3.10</php_minimum>
+    </update>
+</updates>

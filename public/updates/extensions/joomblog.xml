@@ -1,0 +1,17 @@
+<updates>
+    <update>
+        <name>JoomBlog</name>
+        <description>Blog management component for Joomla! CMS</description>
+        <element>pkg_joomblog</element>
+        <type>package</type>
+        <version>1.3.3</version>
+        <infourl title="JoomBlog 1.3.3 Release">https://github.com/joomplace/joomla-blog/releases/tag/1.3.3</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/joomplace/joomla-blog/releases/download/1.3.3/pkg_joomblog_1.3.3.zip</downloadurl>
+        </downloads>
+        <maintainer>JoomPlace</maintainer>
+        <maintainerurl>https://www.joomplace.com</maintainerurl>
+        <targetplatform name="joomla" version="3.*"/>
+        <php_minimum>5.3.10</php_minimum>
+    </update>
+</updates>

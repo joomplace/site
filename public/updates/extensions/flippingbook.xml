@@ -1,0 +1,17 @@
+<updates>
+    <update>
+        <name>HTML5 FlippingBook Pro</name>
+        <description>eBook management component for Joomla! CMS</description>
+        <element>pkg_html5flippingbook_pro</element>
+        <type>package</type>
+        <version>2.2.7</version>
+        <infourl title="HTML5 FlippingBook Pro 2.2.7 Release">https://github.com/joomplace/joomla-html5-flippingbook/releases/tag/2.2.7</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/joomplace/joomla-html5-flippingbook/releases/download/2.2.7/pkg_html5flippingbook_pro_2.2.7.zip</downloadurl>
+        </downloads>
+        <maintainer>JoomPlace</maintainer>
+        <maintainerurl>https://www.joomplace.com</maintainerurl>
+        <targetplatform name="joomla" version="3.*"/>
+        <php_minimum>5.3.10</php_minimum>
+    </update>
+</updates>
