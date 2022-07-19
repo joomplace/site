@@ -3,16 +3,29 @@
 (function(){
 
     let paymentQty = 1;
+    const parsedUrl = new URL(window.location.href);
     const params = new URLSearchParams(window.location.search);
     if(params.has('quantity')) {
         paymentQty = parseInt(params.get('quantity'), 10);
     }
 
     document.addEventListener('DOMContentLoaded', function(){
+        setActiveMenuItem();
         if(document.getElementById('payment-quantity')) {
             setHandlersPaymentPage();
         }
     });
+    
+    function setActiveMenuItem() {
+        let innerMenuLinks = document.querySelectorAll('.top-menu a.site-inner');
+        for(let i = 0; i < innerMenuLinks.length; i++) {
+            innerMenuLinks[i].classList.remove('active');
+            let href = innerMenuLinks[i].getAttribute('href');
+            if(href == parsedUrl.pathname) {
+                innerMenuLinks[i].classList.add('active');
+            }
+        }
+    }
 
     function setHandlersPaymentPage() {
         document.getElementById('payment-quantity').addEventListener('input', function(event) {
