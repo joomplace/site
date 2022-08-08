@@ -10,12 +10,12 @@
     }
 
     document.addEventListener('DOMContentLoaded', function(){
-        setActiveMenuItem();
         if(document.getElementById('payment-quantity')) {
             setHandlersPaymentPage();
         }
+        setActiveMenuItem();
     });
-    
+
     function setActiveMenuItem() {
         let innerMenuLinks = document.querySelectorAll('.top-menu a.site-inner');
         for(let i = 0; i < innerMenuLinks.length; i++) {
